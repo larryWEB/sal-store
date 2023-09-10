@@ -27,6 +27,9 @@ z-index:1;
   top:7px;
 }
 
+
+
+
 .hamburger-menu, .shop-icon{
   position:absolute;
  margin-top:30px;
@@ -319,3 +322,64 @@ border:1px solid rgb(203, 199, 199);
 border-radius:5px;
             }
 
+
+
+            
+     /*-----------------------------------*\ 
+		bottom-menu
+	  \*-------------------------------------*/
+
+	  #bottom-menu{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom:60px;
+    }
+
+    #bottom-menu h3{
+      font-size:15px;
+      font-weight:100;
+          }
+
+
+           /*-----------------------------------*\ 
+		bottom-menu
+	  \*-------------------------------------*/
+
+    #payment-logo{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+      padding-bottom:3ch;
+    }
+
+    #payment-logo div{
+     display:flex;
+     gap:20px;
+      
+    }
+
+
+    #payment-logo img{
+width:60px;
+height:40px;
+border:1px solid rgb(205, 199, 199);
+    }
+
+
+
+
+    footer{
+      text-align: center;
+      padding: 20px;
+      font-weight:500;
+    }
+
+    footer a{
+   font-weight:bold;
+   color:black;
+   text-decoration: none;
+    }
