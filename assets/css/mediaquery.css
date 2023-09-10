@@ -1,0 +1,798 @@
+@media (min-width: 375px) {
+
+  .img-card img{
+ width:100%;
+}
+
+
+.img-card{
+ width:60% ;
+ overflow:hidden;
+border-top-left-radius:20px ;
+}
+
+.rate-love-card{
+  display:flex;
+ justify-content:space-evenly;
+ align-items:center;
+ gap:70px;
+ position:relative;
+ top:30px;
+}
+
+
+.buy-price-card{
+ background-color:black;
+ width:60%;
+ height:50px;
+ display:flex;
+ justify-content:space-around;
+ align-items:center;
+ color:white;
+ font-weight:bold;
+}
+
+
+
+
+
+
+  
+  /* HOMEPAGE STYLE RULES */
+
+  #home-service{
+    margin-top:50px;
+  }
+  
+ 
+  
+   .home-test-head{
+   font-weight:bold;
+   font-size:39px;
+
+  }
+  
+   .home-test-img{
+    width:150px;
+    border-radius:10px;
+    display:flex;
+   
+  }
+  
+  
+   #zero{
+  display:flex;
+  gap:20px;
+  }
+   
+  
+ 
+}
+
+  
+  /*END OF  HOMEPAGE STYLE RULES */
+        
+
+  
+  
+  @media (min-width: 425px) {
+  
+  
+  /* HOMEPAGE STYLE RULES */
+
+.home-about-btn{
+  margin-top:-30px;
+}
+
+  
+   .home-test-head{
+   font-weight:bold;
+   font-size:39px;
+  }
+  
+   .home-test-img{
+    width:30%;
+    border-radius:10px;
+    display:flex;
+   
+  }
+
+ 
+  }
+  
+  /* END OF STYLE RULES FOR SCREEN 425 */
+  
+  
+  
+  @media (min-width: 500px) {
+  
+    /* HOMEPAGE STYLE RULES */
+    
+   #home-service{
+    margin-top:60px;
+   }
+
+
+    .hero-img{
+      height:500px;
+    }
+     
+    .home-test-head{
+     font-weight:bold;
+     font-size:39px;
+     text-align:center;
+     margin-left:-10px;
+    }
+    
+    #zero{
+     margin-top:30px;
+    }
+    
+    .home-test-comment{
+     margin-left:60px;
+      margin-right:60px;
+    }
+     
+
+footer{
+  bottom:390px;
+}
+    
+    /* END OF HOMEPAGE STYLE RULES  FOR SCREEN 500px*/
+    }
+
+   @media (min-width: 510px) {
+
+footer{
+  bottom:360px;
+}
+      
+    }
+  
+
+
+  
+    @media (min-width: 562px) {
+
+footer{
+  bottom:320px;
+}
+      
+    }
+  
+  
+  
+  
+  @media (max-width: 600px) {
+  #big-slide,
+   .slide-big{
+   visibility:hidden;
+  }
+  
+  }
+  
+  
+
+
+
+  @media (min-width: 601px) {
+  #slider,
+   .slides{
+   visibility:hidden;
+  }
+  
+   #big-slide,
+   .slide-big{
+    z-index:-199;
+    position:relative;
+    animation-name:fade;
+    animation-duration:1s;
+    top:-222px;
+   }
+
+ #home-service{
+    margin-top:100px;
+   }
+
+    
+  .hero-img{
+   filter:brightness(40%);
+   width:100%;
+   height:500px;
+  }
+  
+  
+  .advert-card{
+    position:relative;
+   top:-340px;
+   color:white;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   gap:20px;
+        width:320px;
+  }
+
+
+ .advert-card a{
+   text-align:center;
+   width:150px;
+   background-color:deeppink;
+   line-height:2.4;
+   color:white;
+   font-weight:bold;
+   
+ }
+
+
+
+
+    
+  .hero-ad{
+   font-weight:400;
+   font-size:30px;
+   text-align:center;
+  color:whitesmoke;
+    background-color:rgba(0, 0, 0, 0.134);
+  }
+  
+  
+  .small-hero-ad{
+  visibility:hidden;
+  }
+   
+   
+.hero-1{
+ position:absolute;
+  font-size:30px;
+  left:10px;
+  top:110px;
+ 
+}
+
+        .btn-1{
+             position:absolute;  
+               left:70px;
+               top:220px;
+              height:40px;
+             
+        }
+        
+
+.hero-2{
+  position:absolute; 
+   font-size:30px;
+  bottom:20px;
+}
+
+.btn-2{
+             position:absolute;  
+              height:40px;
+              width:170px;
+               bottom:20px;
+
+        }
+        
+
+        
+.hero-3{
+position:absolute; 
+   font-size:30px;
+   right:0px;
+  top:100px;    
+}
+
+.btn-3{
+  position:absolute;
+  width:170px;
+   left:70px;
+  top:215px;
+
+}
+        
+.hero-4{
+position:absolute; 
+   font-size:30px;
+  bottom:-200px;    
+}
+
+.btn-5{
+  position:absolute;
+  width:170px;
+   right:65px;
+  top:225px;
+  
+}
+
+        
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+  
+  
+  /* HOMEPAGE STYLE RULES */
+
+  #home-about{
+   position:relative;
+ height:500px;
+
+   bottom:240px
+  }
+  
+  .home-about-us-card{
+    position:relative;
+    top:20px;
+  }
+  
+  .home-about-container{
+   display:flex;
+   flex-direction:row;
+  }
+  
+  .home-about-us-text{
+   margin-right:20px;
+   margin-left:20px;
+  }
+   
+   .home-about-img{
+    height:350;
+    width:350;
+    padding:30px;
+     position:relative;
+     top:25px;
+   }
+  
+  .home-about-btn{
+   position:absolute;
+   top:460px;
+   left:350px;
+  }
+   
+  #home-catalogue{
+   position:relative;
+   top:-100px;
+ 
+  }
+  
+  .home-cata-btn{
+   text-align:center;
+   margin-top:35px;
+  }
+   
+  .home-catalogue-container{
+  display:grid;
+ grid-template-columns: repeat(3,180px);
+ justify-content:center;
+ row-gap:15px;
+  }
+
+.home-cata-img{
+ width:180px;
+ height:180px;
+   
+}
+ 
+
+
+    
+  #home-service{
+   position:relative;
+  display:flex;
+    flex-direction:row;
+    margin-top:130px;
+  }
+  
+  .home-service-img{
+    width:60%;
+  }
+
+    .home-service-btn{
+      position:absolute;
+      top:250px;
+    }
+  
+  
+  #home-testimonial{
+    position:relative;
+   top:50px;
+
+  }
+  
+  .home-test-head-2{
+   margin-right:150px;
+    margin-left:150px;
+  }
+
+    .home-test-img{
+      width:20%;
+    }
+  
+  .home-test-comment{
+    margin-right:150px;
+    margin-left:150px;
+  }
+  
+   #home-testimonial-slider{
+    margin-top:29px;
+   }
+  
+   
+  #home-contact-id{
+     position:relative;
+  top:60px;
+
+  }
+  
+  .home-contact-text-card{
+     position:relative;
+   bottom:470px;
+   color:silver;
+   display:flex;
+   flex-direction:column;
+   gap:30px;
+   justify-content:center;
+   align-items:center;
+  }
+  
+   
+   /* END OF  HOMEPAGE STYLE RULES */
+   
+    .hamburger-menu{
+      position:absolute;
+     left:20px;
+  }
+  
+   
+  .hidden-nav{
+  visibility: hidden;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  width:320px;
+  height:410;
+  position:fixed;
+  top:84px;
+  gap:5px;
+  transform: translateX(-100%);
+  transition: 0.5s ease-in-out;
+  }
+  
+  .active{
+  visibility: visible;
+  transform: translateX(0);
+  }
+  
+  
+  .nav-link{
+  position:relative;
+  top:10px;
+  font-weight:500;
+  margin-left:30px;
+  width:80%;
+  line-height:2.5;
+
+  border-bottom:1px solid #8080805c;
+  }
+  
+  
+  footer{
+    bottom:305px;
+  }
+
+.footer-card{
+  margin-top:50px;
+}
+
+    
+  }
+  
+  /* END OF STYLE RULES FOR SCREEN 768 */
+  
+  
+  
+  
+  
+  @media (min-width: 1024px) {
+  
+  
+  /* HOMEPAGE STYLE RULES */
+   
+  #home-about{
+   position:relative;
+   top:-200px;
+  }
+  
+  .home-about-img{
+   margin-left:50px;
+    top:40px;
+  }
+   
+  .home-about-us-text{
+   margin-right:50px;
+   margin-left:50px;
+   margin-top:20px;
+  }
+  
+  .home-about-btn{
+   position:absolute;
+   top:450px;
+   left:530px;
+  }
+  
+   
+  #home-catalogue{
+   position:relative;
+   top:10px;
+  }
+  
+  .home-cata-btn{
+   text-align:center;
+   margin-top:55px;
+   
+  }
+  
+  
+  #home-service{
+   position:relative;
+    gap:60px;
+  }
+  
+ 
+  
+  .home-service-text-card{
+   top:-300px;
+   margin-left:60px;
+  }
+  
+  .home-more-service-details{
+    bottom:140px;
+  }
+  
+  .home-service-btn{
+    bottom:85px;
+  }
+  
+  
+   
+  
+  .home-test-head{
+   font-weight:bold;
+   font-size:49px;
+   text-align:center;
+   margin-left:-50px;
+  }
+  
+  .home-test-head-2{
+   font-weight:400;
+   font-size:18px;
+   text-align:center;
+  }
+  
+  .home-test-img{
+    width:30%;
+    border-radius:10px;
+   width:12%;
+
+  }
+  
+  .home-test-comment{
+    margin-right:300px;
+    margin-left:300px;
+  }
+  
+  #zero{
+   margin-top:30px;
+  }
+  
+  .home-contact-title{
+    margin-right:250px;
+    margin-left:250px;
+  }
+
+
+#home-contact-id{
+  top:120px;
+}
+    
+  
+  /* END OF HOMEPAGE STYLE RULES 1024 */
+  
+   
+  .hamburger-menu{
+  visibility:hidden;
+  }
+  
+  .logo-name{
+  position:absolute;
+  
+  font-size:27px;
+  }
+  
+  #slider,
+   .slides{
+   visibility:hidden;
+  }
+  
+  
+  #nav-bar{
+  z-index:1;
+  }
+  
+  .hidden-nav{
+  visibility: visible;
+  display:flex;
+  flex-direction:row;
+  position:fixed;
+  top:23px;
+  gap:5px;
+  transform: translateY(0);
+  right:180;
+    background-color:transparent;
+   height:20;
+  }
+  
+  .social{
+  display:none;
+  
+  }
+  .nav-link{
+  font-weight:500;
+  gap:30px;
+  }
+  
+  a{
+  text-decoration:none;
+  color:#86878b
+  }
+  
+  .active{
+  visibility: visible;
+  transform: translateY(0);
+  }
+  
+  .about-container{
+    margin-top:50px;
+  }
+
+
+    footer{
+       bottom:245px;
+    }
+
+
+.foot-middle{
+  margin-top:-30px;
+  font-size:15px;
+}
+
+    .contact{
+      color:deeppink;
+      font-size:18px;
+    }
+    
+
+    
+ .footer-card{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+ } 
+
+ .last-card{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+gap:260px;
+ }
+
+
+    
+  
+  }
+    
+  /* END OF STYLE RULES FOR SCREEN 1024 */
+  
+  
+  
+  @media (min-width: 1321px) {
+  
+  .hero-img{
+    height:550px;
+  }
+
+    #big-slide{
+  top:-319px;
+    }
+  
+  
+  
+  
+  /* HOMEPAGE STYLE RULES FOR SCREEN 1321 */
+   
+  
+   .home-about-us-card{
+    margin-top:50px;
+   }
+  
+   .home-about-img{
+    margin-left:80px;
+   }
+  
+   .home-about-us-text, .home-about-us-text-2
+   {
+   margin-right:100px;
+   margin-left:100px;
+    font-size:20px;
+  
+  }
+  
+   
+  .home-about-btn{
+   position:absolute;
+   top:460px;
+   left:630px;
+  }
+  
+  
+   #home-catalogue{
+   position:relative;
+    top:-30px;
+  }
+  
+.home-catalogue-container{
+  display:grid;
+ grid-template-columns: repeat(4,200px);
+ justify-content:center;
+ row-gap:15px;
+  }
+
+.home-cata-img{
+ width:200px;
+ height:200px;
+   
+}
+ 
+  
+  #home-service{
+   position:relative;
+  
+ 
+  }
+  
+  .home-service-text-card{
+   top:-300px;
+   margin-left:100px;
+  }
+  
+ 
+  
+   .home-test-head-2{
+    margin-left:380px;
+     margin-right:380px;
+    font-size:20px;
+   }
+  
+  
+  .home-test-comment{
+    margin-right:400px;
+    margin-left:400px;
+    font-size:18px;
+  }
+
+footer{
+  bottom:250px;
+}
+
+
+    .footer-card{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+      gap:80px;
+ } 
+ 
+  
+  }
