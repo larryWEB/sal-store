@@ -120,6 +120,7 @@ body, html {
   overflow: hidden;
   text-align: left;
   box-shadow: rgba(128, 128, 128, 0.45) 0px 1px 0px;
+  position:fixed;
 }
 
 .nav-link a {
